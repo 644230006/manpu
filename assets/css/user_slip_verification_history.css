@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #330066;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-buttons .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.filter-buttons .button.active {
+    background-color: #290054;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table thead {
+    background-color: #330066;
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+table tbody tr td i {
+    margin-right: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pagination .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.pagination .button.active {
+    background-color: #290054;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #290054;
+}

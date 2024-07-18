@@ -1,0 +1,12 @@
+{
+    "name": "x-aretr-x/pj",
+    "description": "PJ_NPRU",
+    "type": "project",
+    "license": "NPRU",
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "google/apiclient": "^2.10",
+        "khanamiryan/qrcode-detector-decoder": "^2.0"
+    }
+}

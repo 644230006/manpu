@@ -1,0 +1,84 @@
+/* admin_dashboard.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #030303;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+    color: white; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white; /* เปลี่ยนสีไอคอนเป็นสีขาว */
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: white; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
+
+.card.green {
+    background-color: #4CAF50;
+}
+
+.card.black {
+    background-color: #000000;
+    color: black;
+}
+
+.card.red {
+    background-color: #FF5722;
+}
+
+.card.blue {
+    background-color: #2196F3;
+}
+
+.card.orange {
+    background-color: #FF9800;
+}
+
+.card.purple {
+    background-color: #9C27B0;
+}
+
+.card.pink {
+    background-color: #fc024d;
+}

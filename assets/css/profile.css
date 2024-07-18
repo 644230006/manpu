@@ -1,0 +1,65 @@
+.dashboard {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.profile-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.profile-form button {
+    padding: 10px;
+    background-color: #330066;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-form button:hover {
+    background-color: #220044;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

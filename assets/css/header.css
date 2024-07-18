@@ -1,0 +1,113 @@
+/* header.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #330066;
+    padding: 15px 20px;
+    border-bottom: 2px solid #fff;
+}
+
+header .logo h2 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header .main-nav {
+    display: flex;
+}
+
+header .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .main-nav ul li {
+    margin-right: 20px;
+}
+
+header .main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header .main-nav ul li a i {
+    margin-right: 5px;
+}
+
+header .main-nav ul li a:hover,
+header .main-nav ul li a.active {
+    text-decoration: underline;
+    color: #FFA500;
+}
+
+header .auth-buttons {
+    display: flex;
+}
+
+header .auth-buttons .button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+header .auth-buttons .button i {
+    margin-right: 5px;
+}
+
+header .auth-buttons .dashboard-button,
+header .auth-buttons .logout-button {
+    background-color: #FF4500;
+    color: white;
+}
+
+header .auth-buttons .register-button {
+    background-color: white;
+    color: #4CAF50;
+}
+
+header .auth-buttons .register-button:hover {
+    background-color: #45a049;
+    color: white;
+    border: 2px solid #45a049;
+}
+
+header .auth-buttons .login-button {
+    background-color: #FFA500;
+    color: white;
+}
+
+header .auth-buttons .login-button:hover {
+    background-color: #FF4500;
+    color: white;
+    border: 2px solid #FF4500;
+}

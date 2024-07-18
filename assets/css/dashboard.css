@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8bdfd; /* สีพื้นหลังโทนสีม่วงสำหรับ USER */
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.dashboard h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.balance-card {
+    background-color: #4caf50;
+}
+
+.gift-code-card {
+    background-color: #ff9800;
+}
+
+.gift-code-history-card {
+    background-color: #f44336;
+}
+
+.profile-card {
+    background-color: #ff5722;
+}
+
+.password-card {
+    background-color: #3f51b5;
+}
+
+.qr-code-history-card {
+    background-color: #9c27b0;
+}
+
+.transaction-history-card {
+    background-color: #e91e63;
+}
+
+.wallet-history-card {
+    background-color: #fffefe;
+    color: black;
+}
+
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}

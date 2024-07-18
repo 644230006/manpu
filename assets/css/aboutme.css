@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
+/* การตั้งค่าสำหรับหน้าเกี่ยวกับเรา */
+.about-intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.about-intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.our-mission {
+    padding: 50px 20px;
+}
+
+.our-mission h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-mission p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.our-advisor {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.our-advisor h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-advisor .team-member {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px; /* กำหนดขนาดสูงสุดของกล่อง */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-advisor .team-member img {
+    width: 150px; /* กำหนดขนาดความกว้างของรูปภาพ */
+    height: 150px; /* กำหนดขนาดความสูงของรูปภาพ */
+    border-radius: 50%; /* ทำให้รูปภาพเป็นวงกลม */
+    object-fit: cover; /* ปรับขนาดรูปภาพให้พอดีกับกรอบ */
+    margin-bottom: 10px;
+}
+
+.our-advisor .team-member h3 {
+    margin-top: 0;
+}
+
+.our-team {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.our-team h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-team .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* เพื่อให้สามารถเรียงหลายแถวได้ */
+    gap: 20px; /* เพิ่มช่องว่างระหว่างทีมงาน */
+}
+
+.our-team .team-member {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px; /* กำหนดขนาดสูงสุดของกล่อง */
+    flex: 1 1 calc(25% - 40px); /* แบ่งเป็น 4 คอลัมน์ */
+    box-sizing: border-box;
+}
+
+.our-team .team-member img {
+    width: 150px; /* กำหนดขนาดความกว้างของรูปภาพ */
+    height: 150px; /* กำหนดขนาดความสูงของรูปภาพ */
+    border-radius: 50%; /* ทำให้รูปภาพเป็นวงกลม */
+    object-fit: cover; /* ปรับขนาดรูปภาพให้พอดีกับกรอบ */
+    margin-bottom: 10px;
+}
+
+.our-team .team-member h3 {
+    margin-top: 0;
+}
+          

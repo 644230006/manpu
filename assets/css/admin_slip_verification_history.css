@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #330066;
+}
+
+.filter-options {
+    margin-bottom: 20px;
+}
+
+.filter-options .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.filter-options .button:hover {
+    background-color: #290054;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #290054;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #330066;
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pagination .button:hover {
+    background-color: #290054;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF4500;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FF3300;
+}

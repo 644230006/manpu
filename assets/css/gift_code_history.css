@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #330066;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.filters .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.filters .button:hover {
+    background-color: #290054;
+}
+
+.filters .button.active {
+    background-color: #FF4500;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #330066;
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table td {
+    color: black;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #330066;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pagination .button:hover {
+    background-color: #290054;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF4500;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #FF3300;
+}

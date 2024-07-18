@@ -1,0 +1,71 @@
+/* createqrcode.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.create-qrcode-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.create-qrcode-section h2 {
+    margin-bottom: 30px;
+    color: #330066;
+}
+
+.create-qrcode-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-qrcode-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.create-qrcode-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create-qrcode-form button {
+    padding: 15px;
+    background-color: #330066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.create-qrcode-form button:hover {
+    background-color: #290054;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

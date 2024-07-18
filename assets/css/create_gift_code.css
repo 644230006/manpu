@@ -1,0 +1,64 @@
+/* create_gift_code.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.create-gift-code-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-gift-code-section h2 {
+    margin-bottom: 20px;
+    color: #330066;
+}
+
+.create-gift-code-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.create-gift-code-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-gift-code-form button {
+    padding: 10px 20px;
+    background-color: #330066;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-gift-code-form button:hover {
+    background-color: #290054;
+}
+
+.button.back-to-dashboard {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button.back-to-dashboard:hover {
+    background-color: #FF3300;
+}
