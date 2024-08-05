@@ -62,3 +62,58 @@ body {
 .button.back-to-dashboard:hover {
     background-color: #FF3300;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .create-gift-code-section {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .create-gift-code-section h2 {
+        font-size: 20px;
+    }
+
+    .create-gift-code-form input[type="number"],
+    .create-gift-code-form button,
+    .button.back-to-dashboard {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .create-gift-code-section {
+        margin: 30px auto;
+        padding: 18px;
+    }
+
+    .create-gift-code-section h2 {
+        font-size: 22px;
+    }
+
+    .create-gift-code-form input[type="number"],
+    .create-gift-code-form button,
+    .button.back-to-dashboard {
+        font-size: 15px;
+        padding: 9px 18px;
+    }
+}
+
+@media (min-width: 993px) {
+    .create-gift-code-section {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .create-gift-code-section h2 {
+        font-size: 24px;
+    }
+
+    .create-gift-code-form input[type="number"],
+    .create-gift-code-form button,
+    .button.back-to-dashboard {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

@@ -68,3 +68,100 @@ main {
     cursor: pointer;
     font-size: 1.2em;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .login-form {
+        padding: 15px;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+    }
+
+    .login-form h2 {
+        font-size: 20px;
+    }
+
+    .login-form label, 
+    .login-form input, 
+    .login-form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .password-container input {
+        width: calc(100% - 26px);
+    }
+
+    .toggle-password {
+        right: 4px;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    main {
+        padding: 15px;
+    }
+
+    .login-form {
+        padding: 18px;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+    }
+
+    .login-form h2 {
+        font-size: 22px;
+    }
+
+    .login-form label, 
+    .login-form input, 
+    .login-form button {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .password-container input {
+        width: calc(100% - 28px);
+    }
+
+    .toggle-password {
+        right: 5px;
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 993px) {
+    main {
+        padding: 20px;
+    }
+
+    .login-form {
+        padding: 20px;
+        margin: 30px auto;
+        border: 1px solid #ddd;
+    }
+
+    .login-form h2 {
+        font-size: 24px;
+    }
+
+    .login-form label, 
+    .login-form input, 
+    .login-form button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .password-container input {
+        width: calc(100% - 30px);
+    }
+
+    .toggle-password {
+        right: 6px;
+        font-size: 1.2em;
+    }
+}

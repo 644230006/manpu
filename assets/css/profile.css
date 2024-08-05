@@ -63,3 +63,52 @@
 .button:hover {
     background-color: #0056b3;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .dashboard {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .dashboard h2 {
+        font-size: 24px;
+    }
+
+    .profile-form input, .profile-form button, .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .dashboard {
+        padding: 18px;
+        margin: 20px;
+    }
+
+    .dashboard h2 {
+        font-size: 28px;
+    }
+
+    .profile-form input, .profile-form button, .button {
+        font-size: 15px;
+        padding: 9px;
+    }
+}
+
+@media (min-width: 993px) {
+    .dashboard {
+        padding: 20px;
+        margin: 30px;
+    }
+
+    .dashboard h2 {
+        font-size: 32px;
+    }
+
+    .profile-form input, .profile-form button, .button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}

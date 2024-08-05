@@ -1,4 +1,3 @@
-/* user_management.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -132,4 +131,107 @@ table tbody tr:nth-child(odd) {
 
 .button:hover {
     background-color: #FF3300;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .dashboard {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .dashboard h2 {
+        font-size: 30px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-form input[type="text"], 
+    .search-form button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    table th, table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .action-buttons .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .pagination .button,
+    .button {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .dashboard {
+        padding: 18px;
+        max-width: 90%;
+    }
+
+    .dashboard h2 {
+        font-size: 40px;
+    }
+
+    .search-form input[type="text"], 
+    .search-form button {
+        width: 300px;
+    }
+
+    table th, table td {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .action-buttons .button {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .pagination .button,
+    .button {
+        padding: 9px 18px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 993px) {
+    .dashboard {
+        padding: 20px;
+        max-width: 80%;
+    }
+
+    .dashboard h2 {
+        font-size: 50px;
+    }
+
+    .search-form input[type="text"], 
+    .search-form button {
+        width: 300px;
+    }
+
+    table th, table td {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .action-buttons .button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .pagination .button,
+    .button {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
 }

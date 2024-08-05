@@ -69,3 +69,61 @@ body {
 .button:hover {
     background-color: #0056b3;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .create-qrcode-section {
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .create-qrcode-section h2 {
+        font-size: 24px;
+    }
+
+    .create-qrcode-form label,
+    .create-qrcode-form input[type="text"],
+    .create-qrcode-form button,
+    .button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .create-qrcode-section {
+        padding: 30px;
+        margin: 75px auto;
+    }
+
+    .create-qrcode-section h2 {
+        font-size: 26px;
+    }
+
+    .create-qrcode-form label,
+    .create-qrcode-form input[type="text"],
+    .create-qrcode-form button,
+    .button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media (min-width: 993px) {
+    .create-qrcode-section {
+        padding: 50px;
+        margin: 100px auto;
+    }
+
+    .create-qrcode-section h2 {
+        font-size: 28px;
+    }
+
+    .create-qrcode-form label,
+    .create-qrcode-form input[type="text"],
+    .create-qrcode-form button,
+    .button {
+        font-size: 18px;
+        padding: 15px;
+    }
+}

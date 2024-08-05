@@ -7,3 +7,25 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    footer {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    footer {
+        padding: 9px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 993px) {
+    footer {
+        padding: 10px;
+        font-size: 16px;
+    }
+}

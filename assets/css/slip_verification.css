@@ -62,3 +62,82 @@ body {
 .button.back-to-dashboard:hover {
     background-color: #FF3300;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .slip-verification-section h2 {
+        font-size: 30px;
+    }
+
+    .slip-verification-section label {
+        font-size: 16px;
+    }
+
+    .slip-verification-section input[type="file"] {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .slip-verification-section button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .button.back-to-dashboard, 
+    .button.back-to-verification {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .slip-verification-section h2 {
+        font-size: 40px;
+    }
+
+    .slip-verification-section label {
+        font-size: 17px;
+    }
+
+    .slip-verification-section input[type="file"] {
+        width: 90%;
+        padding: 9px;
+    }
+
+    .slip-verification-section button {
+        font-size: 17px;
+        padding: 9px 18px;
+    }
+
+    .button.back-to-dashboard, 
+    .button.back-to-verification {
+        font-size: 17px;
+        padding: 9px 18px;
+    }
+}
+
+@media (min-width: 993px) {
+    .slip-verification-section h2 {
+        font-size: 50px;
+    }
+
+    .slip-verification-section label {
+        font-size: 18px;
+    }
+
+    .slip-verification-section input[type="file"] {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .slip-verification-section button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .button.back-to-dashboard, 
+    .button.back-to-verification {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}

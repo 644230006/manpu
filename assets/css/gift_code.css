@@ -67,3 +67,55 @@ body {
 .back-to-dashboard:hover {
     background-color: #1e87f0;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .gift-code-section {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .gift-code-section h2 {
+        font-size: 20px;
+    }
+
+    .gift-code-form input, .gift-code-form button, .back-to-dashboard {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .gift-code-section {
+        padding: 18px;
+        margin: 30px auto;
+    }
+
+    .gift-code-section h2 {
+        font-size: 22px;
+    }
+
+    .gift-code-form input, .gift-code-form button, .back-to-dashboard {
+        width: 90%;
+        font-size: 15px;
+        padding: 9px;
+    }
+}
+
+@media (min-width: 993px) {
+    .gift-code-section {
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .gift-code-section h2 {
+        font-size: 24px;
+    }
+
+    .gift-code-form input, .gift-code-form button, .back-to-dashboard {
+        width: 80%;
+        font-size: 16px;
+        padding: 10px;
+    }
+}

@@ -64,3 +64,58 @@ h2 {
 .button:hover {
     background-color: #FF3300;
 }
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+    .dashboard {
+        padding: 15px;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .edit-form input, .edit-form select, .edit-form button, .button {
+        width: calc(100% - 12px);
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .dashboard {
+        padding: 18px;
+        margin: 15px auto;
+        max-width: 80%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .edit-form input, .edit-form select, .edit-form button, .button {
+        width: calc(100% - 18px);
+        padding: 9px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 993px) {
+    .dashboard {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 70%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .edit-form input, .edit-form select, .edit-form button, .button {
+        width: calc(100% - 22px);
+        padding: 10px;
+        font-size: 16px;
+    }
+}

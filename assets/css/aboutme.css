@@ -114,4 +114,43 @@ main {
 .our-team .team-member h3 {
     margin-top: 0;
 }
-          
+
+/* Media Queries สำหรับการตอบสนองต่ออุปกรณ์ที่หลากหลาย */
+@media (max-width: 600px) {
+    .about-intro h2 {
+        font-size: 1.8em;
+    }
+    .about-intro p, .our-mission p, .our-advisor .team-member h3, .our-team .team-member h3 {
+        font-size: 1em;
+    }
+    .our-advisor .team-member, .our-team .team-member {
+        max-width: 90%;
+    }
+    .our-team .team-members {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .our-advisor .team-member img, .our-team .team-member img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .about-intro h2 {
+        font-size: 2.2em;
+    }
+    .about-intro p, .our-mission p, .our-advisor .team-member h3, .our-team .team-member h3 {
+        font-size: 1.1em;
+    }
+    .our-advisor .team-member, .our-team .team-member {
+        max-width: 45%;
+    }
+    .our-team .team-members {
+        gap: 15px;
+    }
+    .our-advisor .team-member img, .our-team .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+}
